@@ -1,0 +1,55 @@
+html {
+  
+  background-color:goldenrod;
+  background:url("../images/bg-1500-1.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color:goldenrod;
+}
+
+h1 {
+  background-color: silver;
+}
+::selection {
+  background-color:goldenrod;
+  color:silver;
+}
+
+header {
+  text-align:center;
+}
+
+.button {
+  text-align:center;
+}
+
+ul li {
+  display: inline-block;
+  padding:20px;
+  background-color: #2C3E50;
+  margin-bottom: 100px;
+  margin-top: 40px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  letter-spacing:1.2px;
+}
+
+ul li a {
+  text-decoration: none;
+  color:silver;
+}
+
+footer {
+  background-color:silver;
+}
+.last > li{
+  margin:0;
+  background-color:none;
+}
+
+.primary .one-third img {
+  display: relative;
+  max-width: 100%;
+}
